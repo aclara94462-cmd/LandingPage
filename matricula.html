@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrícula</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="menu">
+    <a href="index.html">Início</a>
+</nav>
+
+<h2>Faça sua matrícula</h2>
+
+<p>Preencha seus dados abaixo para se inscrever:</p>
+
+<form>
+    <label for="nome">Nome:</label>
+    <br>
+    <input type="text" name="nome" id="nome" required>
+    <br>
+    <br>
+
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <br>
+
+    <label for="curso">Curso desejado:</label>
+    <br>
+    <select name="curso" id="curso">
+        <option>Desenvolvimento de Sistemas</option>
+        <option>Automação Industrial</option>
+        <option>Eletrotécnica</option>
+        <option>Mecânica</option>
+        <option>Outro</option>
+    </select><br><br>
+
+    <label>Turno:</label>
+    <br>
+    <input type="radio" name="turno" id="manha" value="Manhã"> <label for="manha">Manhã</label>
+    <br>
+    <input type="radio" name="turno" id="tarde" value="Tarde"> <label for="tarde">Tarde</label>
+    <br>
+    <input type="radio" name="turno" id="noite" value="Noite"> <label for="noite">Noite</label>
+    <br>
+    <br>
+
+    <label for="mensagem">Mensagem:</label>
+    <br>
+    <textarea name="mensagem" id="mensagem" rows="4" cols="30"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Enviar inscrição">
+</form>
+
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-8qMJ2NaSIE8b4-Mtf4nFJtvUckY8FkiEcA&s" alt="Aluno estudando" title="Matrícula">
+
